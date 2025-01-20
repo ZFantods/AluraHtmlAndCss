@@ -6,9 +6,9 @@
 }
 
 body {
-  background-color: black;
-  color: #7c60e6;
+  background-color: #000000;
   box-sizing: border-box;
+  color: #7c60e6;
 }
 
 .container {
@@ -16,6 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 10% 15%;
+  padding-bottom: 50px; /* Adiciona espaço no final */
 }
 
 .container-fluid {
@@ -89,11 +90,11 @@ body {
 }
 
 .footer-container {
-  background-color: #22d4fd;
   color: #000000;
-  font-family: "Montserrat", sans-serif;
-  padding: 24px;
+  background-color: #22D4FD;
+  padding: 12px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: 400;
-  text-align: center;
 }
