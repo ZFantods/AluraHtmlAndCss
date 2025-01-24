@@ -57,7 +57,7 @@ body {
 
 .container-text {
   color: var(--third-color);
-  font-size: 22px;
+  font-size: 24px;
   font-family: var (--main-source);
   padding: 10px;
 }
