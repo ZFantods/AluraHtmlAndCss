@@ -29,11 +29,20 @@ Aprender a construir layouts adaptáveis para diferentes dispositivos e tamanhos
    - 📲 Como começar o design para dispositivos menores.  
    - 🖥️ Adição progressiva de estilos para telas maiores.  
 
+   
+# 🔗 Referências
+- [CSS UNITS](https://www.w3schools.com/cssref/css_units.php)
+- [Unidades de Medida Relativas](https://www.alura.com.br/artigos/guia-de-unidades-no-css)
+
 ## 💻 Tecnologias Utilizadas  
 <div>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5 logo" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3 logo" />
 </div>  
+
+# 📝 Licença  
+
+Esse projeto está sob a licença MIT.
 
 ## ✍️ Autor  
 **Lucas**  

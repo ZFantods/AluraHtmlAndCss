@@ -34,7 +34,7 @@ body {
 
 .container-nav-link {
   font-family: var(--main-source);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--second-color);
   color: inherit;
@@ -52,12 +52,12 @@ body {
 
 .container-title {
   color: var();
-  font-size: 42px;
+  font-size: 2.5rem;
 }
 
 .container-text {
   color: var(--third-color);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: var (--main-source);
   padding: 10px;
 }
@@ -80,7 +80,7 @@ body {
 
 .container-link-subtitle {
   font-family:var (--secondary-source);
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 400;
 }
 
@@ -90,7 +90,7 @@ body {
   color: var(--third-color);
   display: flex;
   font-family: var (--main-source);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   gap: 16px;
   justify-content: center;
@@ -119,6 +119,6 @@ body {
   padding: 12px;
   text-align: center;
   font-family: var(--main-source);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
 }
