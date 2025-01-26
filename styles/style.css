@@ -2,13 +2,12 @@
 
 :root {
   --first-color: #7c60e6;
-  --second-color: #22D4FD;
+  --second-color: #22d4fd;
   --third-color: #f6f6f6;
   --fourth-color: #000000;
 
-  --main-source: 'montserrat', sans-serif;
+  --main-source: "montserrat", sans-serif;
   --secondary-source: "Krona One", sans-serif;
-
 }
 * {
   margin: 0;
@@ -21,15 +20,13 @@ body {
   color: var(--first-color);
 }
 
-
 .container-header {
   padding: 2% 0% 0% 15%;
 }
 
-
 .container-header-nav {
   display: flex;
-  gap:80px;
+  gap: 80px;
 }
 
 .container-nav-link {
@@ -44,11 +41,11 @@ body {
 .container-main {
   align-items: center;
   display: flex;
+  gap: 82px;
   justify-content: space-between;
-  margin: 10% 15%;
-  padding-bottom: 200px; /* Adiciona espaço no final */
+  padding: 15% 15%;
+  
 }
-
 
 .container-title {
   color: var();
@@ -79,7 +76,7 @@ body {
 }
 
 .container-link-subtitle {
-  font-family:var (--secondary-source);
+  font-family: var (--secondary-source);
   font-size: 2rem;
   font-weight: 400;
 }
@@ -97,7 +94,7 @@ body {
   padding: 21px 0;
   text-align: center;
   text-decoration: none;
-  width: 378px;
+  width: 50%;
 }
 
 .container-links-link:hover {
@@ -105,6 +102,13 @@ body {
   color: var(--third-color);
   cursor: pointer;
   padding: 3%;
+}
+
+.container-fluid {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .zFantods {
@@ -121,4 +125,24 @@ body {
   font-family: var(--main-source);
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+  .container-header {
+    padding: 10%;
+  }
+
+  .container-header-nav {
+    justify-content: center;
+  }
+
+  .container-main {
+    flex-direction: column-reverse;
+    padding: 5%;
+  }
+
+  .container-fluid {
+    width: 100%;
+  }
+
 }
